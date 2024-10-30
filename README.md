@@ -29,27 +29,17 @@ Setup and Installation:
 
 Clone the Repository
 
-bash
-
-Copy code
-
 git clone <your-repo-url>
 
 cd hotel
 
 Install Dependencies:
 
-bash
-
-Copy code
-
 npm install
 
 Environment Configuration: Create a .env file in the root of your project and add the following:
 
 plaintext
-
-Copy code
 
 PORT=3000
 
@@ -59,19 +49,10 @@ MONGO_URI=mongodb://localhost:27017/hotel
 
 Run MongoDB: Ensure MongoDB is running locally. In a new terminal, start MongoDB:
 
-
-bash
-
-Copy code
-
 mongod
 
 Run the Application:
 
-
-bash
-
-Copy code
 
 npm start
 
@@ -112,11 +93,7 @@ JWT Middleware: Validates JWT token for secure routes.
 
 Request Logging: Logs incoming API requests with timestamps.
 
-Project Structure
-
-bash
-
-Copy code
+Project Structure:
 
 hotel/
 
